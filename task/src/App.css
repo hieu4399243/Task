@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.home{
+  text-align: center;
+}
+
+.chap{
+  list-style: none;
+  margin-bottom: 30px;
+}
+.chap a{
+  text-decoration: none;
+  background-color: #61dafb;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
