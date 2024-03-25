@@ -52,3 +52,32 @@
   margin: 5px;
   border-radius: 5px;
 }
+.content{
+  display: flex;
+  justify-content: center;
+}
+.odd{
+  background-color: aquamarine;
+  padding: 10px;
+  margin: 2px;
+}
+.le{
+  background-color: brown;
+  padding: 10px;
+  margin: 2px;
+}
+
+.scroll{
+  background-color: aquamarine;
+  max-height: 200px;
+overflow-y: auto;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+.light{
+  background-color: white;
+  color: black;
+}
