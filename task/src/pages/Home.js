@@ -10,19 +10,19 @@ export default function Home() {
         <nav>
           <ul style={{padding:'0px'}}>
             <li className="chap">
-              <Link to="/chap1">Chap Zero: Function component and Class component</Link>
+              <Link to="/zero">Chap Zero: Function component and Class component</Link>
             </li>
             <li className="chap">
-              <Link to="/chap2">Chap 1: Vòng đời của component</Link>
+              <Link to="/chap1">Chap 1: Vòng đời của component</Link>
             </li>
             <li className="chap">
-              <Link to="/chap3">Chap 2: State and Props</Link>
+              <Link to="/chap2">Chap 2: State and Props</Link>
             </li>
             <li className="chap">
               <Link to="/chap3">Chap 3: Các thẻ HTML</Link>
             </li>
             <li className="chap">
-              <Link to="/chap3">Chap 4: Redux</Link>
+              <Link to="/chap4">Chap 4: Redux</Link>
             </li>
           </ul>
         </nav>
