@@ -17,6 +17,7 @@ function App() {
         <Route path="/chap1" element={<Chap1 />}></Route>
         <Route path="/chap2" element={<Chap2 />}></Route>
         <Route path="/chap3" element={<Chap3 />}></Route>
+        <Route path="/chap4" element={<Chap4 />}></Route>
       </Routes>
     </div>
   );
