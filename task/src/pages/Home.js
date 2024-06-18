@@ -8,9 +8,11 @@ export default function Home() {
       <div className="home">
         <h1>List task</h1>
         <nav>
-          <ul style={{padding:'0px'}}>
+          <ul style={{ padding: "0px" }}>
             <li className="chap">
-              <Link to="/zero">Chap Zero: Function component and Class component</Link>
+              <Link to="/zero">
+                Chap Zero: Function component and Class component
+              </Link>
             </li>
             <li className="chap">
               <Link to="/chap1">Chap 1: Vòng đời của component</Link>
@@ -23,6 +25,9 @@ export default function Home() {
             </li>
             <li className="chap">
               <Link to="/chap4">Chap 4: Redux</Link>
+            </li>
+            <li>
+              <Link to="/ref">Ref</Link>
             </li>
           </ul>
         </nav>
